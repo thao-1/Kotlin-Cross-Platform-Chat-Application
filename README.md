@@ -57,7 +57,3 @@ This application uses AES encryption for message security. In a production envir
 - Use a secure key management system
 - Implement proper key rotation
 - Consider using additional security measures like certificate pinning
-
-## License
-
-MIT License 
