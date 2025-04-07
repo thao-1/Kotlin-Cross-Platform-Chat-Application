@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  chat-app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    depends_on:
+      - firebase-emulator
+
+  firebase-emulator:
+    image: andreysenov/firebase-tools
+    ports:
+      - "9099:9099"
+    volumes:
+      - ./firebase.json:/firebase.json
+    command: firebase emulators:start --project demo-project 

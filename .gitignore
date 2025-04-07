@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# iOS
+iosApp/Pods/
+iosApp/build/
+iosApp/*.xcworkspace/
+iosApp/*.xcodeproj/*
+!iosApp/*.xcodeproj/project.pbxproj
+!iosApp/*.xcodeproj/xcshareddata/
+!iosApp/*.xcworkspace/contents.xcworkspacedata
+
+# Android
+androidApp/app/build/
+androidApp/.gradle/
+androidApp/local.properties
+androidApp/.idea/
+androidApp/captures/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
