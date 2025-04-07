@@ -3,33 +3,64 @@
 build/
 local.properties
 
-# IntelliJ IDEA
-.idea/
+# Android
 *.iml
-*.iws
-*.ipr
-out/
+.idea/
+*.apk
+*.aab
+*.hprof
+.cxx/
+*.log
+
+# iOS
+*.xcworkspace/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+Pods/
+*.xcuserstate
+*.xcuserdatad/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Kotlin
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 
-# iOS
-iosApp/Pods/
-iosApp/build/
-iosApp/*.xcworkspace/
-iosApp/*.xcodeproj/*
-!iosApp/*.xcodeproj/project.pbxproj
-!iosApp/*.xcodeproj/xcshareddata/
-!iosApp/*.xcworkspace/contents.xcworkspacedata
-
-# Android
-androidApp/app/build/
-androidApp/.gradle/
-androidApp/local.properties
-androidApp/.idea/
-androidApp/captures/
+# Firebase
+google-services.json
+GoogleService-Info.plist
+firebase-debug.log
 
 # Node.js
 node_modules/
