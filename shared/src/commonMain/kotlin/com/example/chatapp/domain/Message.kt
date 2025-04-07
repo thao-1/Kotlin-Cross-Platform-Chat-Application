@@ -1,4 +1,4 @@
-package model
+package com.example.chatapp.domain
 
 data class Message(
     val id: String = "",

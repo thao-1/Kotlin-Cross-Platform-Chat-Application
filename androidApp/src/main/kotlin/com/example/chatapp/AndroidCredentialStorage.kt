@@ -1,4 +1,4 @@
-package platform
+package com.example.chatapp.platform
 
 import android.content.Context
 import android.content.SharedPreferences

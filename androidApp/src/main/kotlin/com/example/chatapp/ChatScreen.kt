@@ -1,4 +1,4 @@
-package ui
+package com.example.chatapp.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.BasicTextField

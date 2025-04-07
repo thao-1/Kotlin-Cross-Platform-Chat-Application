@@ -1,4 +1,4 @@
-package repository
+package com.example.chatapp.data
 
 interface AuthRepository {
     suspend fun signIn(email: String, password: String): Boolean
